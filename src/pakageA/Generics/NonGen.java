@@ -1,13 +1,13 @@
 package pakageA.Generics;
 
-public class Gen<T> {
-    T ob;
+public class NonGen {
+    Object ob;
 
-    Gen(T ob){
+    NonGen(Object ob){
         this.ob = ob;
     }
 
-    T getOb(){
+    Object getOb(){
         return ob;
     }
 
