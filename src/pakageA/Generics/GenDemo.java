@@ -16,5 +16,9 @@ public class GenDemo {
 
         // this will not compile, improve type safety. Take a look at NonGenDemo
         // iOb = sOb;
+
+        Gen rawType = new Gen(Double.valueOf(56));
+        double dRawType = (double) rawType.getOb();
+        System.out.println("dRawType: " + dRawType);
     }
 }

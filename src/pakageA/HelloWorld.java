@@ -54,14 +54,16 @@ public class HelloWorld {
     }
 
     public static void main(String[] args) throws IOException {
+        short a = 5;
+        out.println(5);
 
-        for (int i = 0; i < 9; i++) {
-            int a = getNum();
-            assert a > 0: "n is not positive, hopefully i will improve my english skill";
-            out.println(a);
-
-
-        }
+//        for (int i = 0; i < 9; i++) {
+//            int a = getNum();
+//            assert a > 0: "n is not positive, hopefully i will improve my english skill";
+//            out.println(a);
+//
+//
+//        }
 
 //        System.out.println(HelloWorld.throwOne(5.66698d,5.45489786315d));
         /*
