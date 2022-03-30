@@ -7,8 +7,10 @@ public class GenDemo {
 
         int v = iOb.getOb();
         System.out.println("value get from get method is: " + v);
-    System.out.println("===========================");
-        Gen<String> sOb = new Gen<>("NewWorld");
+        System.out.println("===========================");
+        var sOb = new Gen<>("NewWorld");
+        Gen<?>[] ss = new Gen<?>[10];
+
         sOb.showTypeOfT();
 
         String s = sOb.getOb();
