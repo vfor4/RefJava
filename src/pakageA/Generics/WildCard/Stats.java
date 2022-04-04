@@ -15,6 +15,7 @@ public class Stats<T extends Number> {
         return sum/arrs.length;
     }
 
+    // using wildcard here
     boolean sameAverage(Stats<?> ob){
         if(average() == ob.average()){
             return  true;
