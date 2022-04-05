@@ -13,6 +13,7 @@ public class LambdaDemo {
     }
 
     public static void main(String[] args) {
+
         MyNum myNum;
         LambdaDemo lambdaDemo = new LambdaDemo();
         Integer a = 5;
