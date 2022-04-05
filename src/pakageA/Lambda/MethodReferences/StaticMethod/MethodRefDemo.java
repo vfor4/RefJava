@@ -9,6 +9,7 @@ public class MethodRefDemo {
         String outStr = "";
         MyStringOps myStringOps = new MyStringOps();
         System.out.println(MethodRefDemo.revDemo(MyStringOps::staticRevString, inStr));
+
         System.out.println(MethodRefDemo.revDemo(myStringOps::revString, inStr));
 
 
