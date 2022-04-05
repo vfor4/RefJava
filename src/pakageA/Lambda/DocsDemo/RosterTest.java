@@ -53,7 +53,7 @@ public class RosterTest {
                 p -> p.getName(),
                 personName -> System.out.println(personName));
 
-        // quick review
+        // quick review ( approach9)
         lp.stream()
                 .filter(p -> p.gender == Sex.MALE)
                 .map(p -> p.getName())
